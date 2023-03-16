@@ -1,0 +1,29 @@
+/*This is line of code margin: 0; is for filling the margins*/
+
+body {
+    margin: 0;
+   }
+/*This are properties of the header*/
+.header {
+    overflow: hidden;
+    background-color: #441981;
+    padding: 20px 40px;
+  }
+/*This are properties of the logo*/
+  .header a.logo {
+    font-size: 25px;
+    font-weight: bold;
+    color: whitesmoke;
+  }
+.button {
+        display: inline-block;
+        margin: 5px;
+        padding: 20px 40px;
+        text-align: center;
+        text-decoration: none;
+        color: #ffffff;
+        background-color: #7aa8b7;
+        border-radius: 6px;
+        outline: none;
+}
+  
