@@ -6,7 +6,7 @@ body {
 /*This are properties of the header*/
 .header {
     overflow: hidden;
-    background-color: #441981;
+    background-color: #50acbc;
     padding: 20px 40px;
   }
 /*This are properties of the logo*/
@@ -22,8 +22,76 @@ body {
         text-align: center;
         text-decoration: none;
         color: #ffffff;
-        background-color: #7aa8b7;
+        background-color: #215567;
         border-radius: 6px;
         outline: none;
 }
-  
+
+
+* {
+  box-sizing: border-box;
+}
+
+
+form.example input[type=text] {
+  padding: 10px;
+  margin-top: -4%;
+  font-size: 17px;
+  border: 1px solid grey;
+  float: right;
+  width: 40%;
+  background: #f1f1f1;
+}
+
+
+form.example button {
+  float: right;
+  margin-top: -4%;
+  width: 20%;
+  padding: 10px;
+  background: #50acbc;
+  color: white;
+  font-size: 17px;
+  border: 1px solid grey;
+  cursor: pointer;
+}
+
+form.example button:hover {
+  background: #7aa8b7;
+}
+
+/* Clear floats */
+form.example::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+ul{
+  list-style:none;
+  display:grid;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 100px;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr;
+  justify-content: center;
+  width: 50px;;
+
+}
+ul li{
+  padding:1em 2em .8em 2em;
+  border:1px solid black;
+
+}
+
+.button1 {
+  display: inline-block;
+  margin: 5px;
+  padding: 20px 40px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff;
+  background-color: #a8403c;
+  border-radius: 6px;
+  outline: none;
+}
